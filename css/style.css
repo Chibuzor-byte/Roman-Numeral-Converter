@@ -1,3 +1,4 @@
+/* ----------------- RESET & VARIABLES ----------------- */
 *,
 *::before,
 *::after {
@@ -19,15 +20,21 @@
   --danger-background: #ffadad;
 }
 
+/* ----------------- BODY ----------------- */
 body {
+  display: flex;               /* make body a flex container */
+  flex-direction: column;
+  justify-content: center;     /* vertical centering */
+  align-items: center;         /* horizontal centering */
   min-height: 100vh;
-  padding: 50px 20px;
+  padding: 20px;               /* responsive padding */
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: var(--gray-85);
   color: var(--gray-05);
 }
 
+/* ----------------- HEADINGS ----------------- */
 .freecodecamp-logo {
   height: 30px;
   margin-bottom: 20px;
@@ -40,13 +47,17 @@ h1 {
   font-family: "Castoro Titling", cursive;
 }
 
+/* ----------------- MAIN ----------------- */
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  min-height: 100vh;  /* ensures main takes full viewport height */
 }
 
+/* ----------------- FORM ----------------- */
 form {
   color: var(--gray-05);
   margin: auto 25px;
