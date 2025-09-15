@@ -26,7 +26,6 @@ body {
 /*   flex-direction: column; */
 /*   justify-content: center;     /* vertical centering */ */
 /*   align-items: center;         /* horizontal centering */ */
-  min-height: 100vh;
   margin: 0 auto;
   padding: 20px;               /* responsive padding */
   font-family: "Lato", Helvetica, Arial, sans-serif;
