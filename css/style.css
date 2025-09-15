@@ -24,12 +24,12 @@
 body {
 
   margin: 0 auto;
-  padding: 20px;               /* responsive padding */
+  padding: 0;               /* responsive padding */
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: var(--gray-85);
   color: var(--gray-05);
-  over-flow: hidden;
+  overflow: hidden;
 }
 
 /* ----------------- HEADINGS ----------------- */
